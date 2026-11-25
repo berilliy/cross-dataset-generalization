@@ -1,0 +1,16 @@
+check,status,evidence_or_limitation
+labels,PASS sampled,Binary 0 benign and 1 attack asserted in temporal sampling; manifests retained
+day separation,PASS,Pairwise UTC calendar day sets asserted disjoint
+feature group separation,PASS,Native feature groups disjoint for temporal partitions; common core hash split disjoint for pooled source train and calibration
+target exclusion,PASS code review,Held out domain never enters model fit preprocessing fit training weights or threshold selection
+preprocessing fit,PASS code review,Imputation scaling and encoding fitted in training Pipeline
+explicit labels and row metadata,PASS code review,No target attack_label source_file source_row absolute timestamp or IP predictor
+indirect artifacts,UNRESOLVED,ToN ports and UNSW sequence-like and aggregate context features may encode testbed identity; no new ablation performed
+native aggregation causality,UNRESOLVED,Feature extraction windows and availability at decision time were not revalidated from PCAP
+duplicate control,PARTIAL,Feature-vector hashes on sampled data; not a five-dataset global row identity proof; float32 native normalization groups may merge near-identical values
+units and extraction,EXPLORATORY,CICIoT flow_duration scale and connection segmentation not independently verified
+statistics,CONDITIONAL,1000 cluster bootstrap and randomization repeats; models and thresholds fixed; 28-test Holm family
+seed robustness,NOT RUN,Single fixed seed 42; no unnecessary new training experiment
+UNSW row count,UNRESOLVED,Mirror has 2540047 versus official stated 2540044; three-row difference unresolved
+five-dataset integrity,PARTIAL,Three new cleaned manifests inspected; historical CICIDS/CSE outputs not fully rescanned
+old temporal results,SEPARATE,Historical quantile chronology and group-random use different test rows; no paired causal temporal claim

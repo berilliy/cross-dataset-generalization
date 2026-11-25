@@ -1,0 +1,36 @@
+{
+  "title": "Robust Cross-Dataset Generalization of Machine Learning-Based Network Intrusion Detection Under Temporal and Distributional Shift",
+  "revision": 2,
+  "seeds": [
+    42,
+    7,
+    2026
+  ],
+  "benchmark_train_budget": "min(60000, smallest domain train count)",
+  "splits": "core hash modulo 10: train<6, cal 6/7, test8/9; fixed across models and seeds",
+  "temporal": "UNSW Jan22 train Jan23 cal Feb18 test; TON through Apr24 train Apr25 cal Apr26/27 test; UTC",
+  "thresholds": [
+    "0.5",
+    "strictly above source-calibration benign 99th percentile; max across source domains"
+  ],
+  "models": [
+    "Majority",
+    "LogisticRegression",
+    "RandomForest",
+    "HistGradientBoosting",
+    "LightGBM"
+  ],
+  "primary_new_endpoint": "macro_f1",
+  "secondary": [
+    "recall",
+    "fpr",
+    "f1_at_20pct_attack",
+    "roc_auc",
+    "average_precision"
+  ],
+  "prior_target_inspection": true,
+  "new_tests": "descriptive seed summaries; no confirmatory p-values",
+  "feature_semantics": "minimal_core exploratory, duration units for CICIoT mirror unresolved",
+  "hyperparameter_selection": "fixed previous code, no target tuning",
+  "frozen_before_new_fit": true
+}

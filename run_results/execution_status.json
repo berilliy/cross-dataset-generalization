@@ -1,0 +1,12 @@
+{
+  "mode": "train",
+  "saved_prediction_groups_verified": 44,
+  "historical_comparisons_recomputed": 28,
+  "training_rerun": true,
+  "controlled_benchmark": "completed",
+  "partition_assertions_executed": true,
+  "all_semantic_leakage_excluded": false,
+  "previous_v2_targets_preinspected": true,
+  "external_test_after_local_freeze": true,
+  "independent_team_replication": false
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Robust Cross-Dataset Generalization of Machine Learning-Based Network Intrusion Detection Under Temporal and Distributional Shift",
+  "stage": "v3 addendum to frozen v2; v2 targets previously inspected; public UCI metadata, including class descriptions, read before freeze. External model outcomes not inspected.",
+  "target": "UCI RT-IoT2022, DOI 10.24432/C5P338, official release, all rows, no target training, threshold fitting, test-driven scaling, model selection, balancing or row removal",
+  "source_training": "Use the actual fitted controlled models on the CICIOT2023 target loop of v2, with sources UNSW_NB15, TON_IOT and UNSW_NB15+TON_IOT. Exclude CIC training. No additional fitting to RT. Same source rows, calibrators and weights as v2.",
+  "models": ["Majority","LogisticRegression","RandomForest","HistGradientBoosting","LightGBM"],
+  "seeds": [42,7,2026],
+  "representations": ["minimal_core","protocol_only"],
+  "RT_features": "proto string to tcp/udp/icmp/other as UNSW mapping; flow_duration in Zeek FlowMeter seconds, raw nonnegative then log1p with same float precision as UNSW. No conversion fitted on target. ID, service and Attack_type excluded.",
+  "RT_labels": "Normal device activity: MQTT/Publish, ThingSpeak, Wipro bulb, Amazon Alexa (if present). Attacks: published DoS SYN Hping, ARP poisoning, Nmap scans, DDoS Slowloris and SSH brute force. Case and punctuation insensitive; fail on unrecognized labels. Resolve spelling only from dataset metadata; publish all actual labels and counts.",
+  "thresholds": ["0.5","v2 source-calibrated benign 1% FPR policy, max of source thresholds"],
+  "primary_external_contrast": "pooled vs each single source, LightGBM minimal_core Macro-F1 at 0.5, mean over the three seeds on all target rows; show both signed differences without choosing a winning source",
+  "secondary": "All conditions including Majority, protocol-only, alternate threshold, FPR, recall, ROC-AUC, average precision, raw confusion. Descriptive, no confirmatory p-values or treatment of seeds as replications. Report common-feature overlap separately without tuning or excluding rows.",
+  "calibration_sensitivity": "Strict v2 native LR and LightGBM for both calendar datasets. Keep fitted models and entire original tests identical. For the original calibration day use full day and first/second half divided at midpoint of observed calibration time span, cutoff included in second half. For each use empirical benign tail budgets 1%, 0.5%, 0.1%, min 30 benign. Freeze quantile tie rule from v2. Report all eligible policies, n and actual windows, achieved calibration FPR, fixed test FPR and recall, confusion and Macro-F1. No policy selection. These subwindows are not new independent days.",
+  "analyses": "Pair minimal_core minus protocol_only and ML minus Majority within the same source/target/seed/threshold for every controlled model. RQ3 collapse seeds over the nine transfer conditions; show per-model descriptive Spearman and feature/class examples. No causal or general monotonic claim.",
+  "scope": "A previously unused public testbed in this project, evaluated by this project. No claim of independent investigators, preregistration by a third party, or production deployment."
+}

@@ -1,0 +1,4 @@
+dataset,rows_read,rows_kept,repeated_headers,invalid_labels,invalid_numeric_rows,parts,numeric_features,categorical_features
+UNSW_NB15,2540047,2540047,0,0,0,66,38,5
+TON_IOT,12000000,11999825,0,0,175,300,18,23
+CICIOT2023,7845673,7845673,0,0,0,198,46,0

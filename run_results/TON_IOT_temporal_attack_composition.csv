@@ -1,0 +1,7 @@
+attack_label,train,calibration,test
+Benign,3494,1218,1451
+ddos,0,52754,39857
+dos,9353,17631,0
+injection,0,6754,0
+password,0,0,20427
+scanning,26637,0,0

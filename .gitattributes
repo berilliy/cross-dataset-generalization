@@ -1,0 +1,5 @@
+# The research manifests identify bytes, including original line endings.
+* -text
+*.png binary
+*.pdf binary
+*.md text eol=lf

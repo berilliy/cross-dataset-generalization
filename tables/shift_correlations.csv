@@ -1,0 +1,9 @@
+model,policy,conditions,rho
+HistGradientBoosting,default_0.5,9,-0.39999999999999997
+HistGradientBoosting,source_cal_fpr_1pct,9,-0.5272012675161055
+LightGBM,default_0.5,9,-0.2333333333333333
+LightGBM,source_cal_fpr_1pct,9,-0.5272012675161055
+LogisticRegression,default_0.5,9,0.21666666666666667
+LogisticRegression,source_cal_fpr_1pct,9,-0.06666666666666667
+RandomForest,default_0.5,9,-0.18333333333333335
+RandomForest,source_cal_fpr_1pct,9,0.10041928905068677

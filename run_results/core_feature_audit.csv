@@ -1,0 +1,10 @@
+target,source,train_n,cal_n,test_n,test_core_overlap_with_train,features,status
+UNSW_NB15,TON_IOT,150672,29003,177906,0.3062909626431936,log_duration;tcp;udp;icmp;other,exploratory exporter semantics and CICIoT duration units not fully validated
+UNSW_NB15,CICIOT2023,177681,17967,177906,0.00308027834924061,log_duration;tcp;udp;icmp;other,exploratory exporter semantics and CICIoT duration units not fully validated
+UNSW_NB15,TON_IOT+CICIOT2023,328353,46970,177906,0.3090564680224388,log_duration;tcp;udp;icmp;other,exploratory exporter semantics and CICIoT duration units not fully validated
+TON_IOT,UNSW_NB15,147841,30065,179675,0.31180743008209266,log_duration;tcp;udp;icmp;other,exploratory exporter semantics and CICIoT duration units not fully validated
+TON_IOT,CICIOT2023,177681,17967,179675,0.1650869625713093,log_duration;tcp;udp;icmp;other,exploratory exporter semantics and CICIoT duration units not fully validated
+TON_IOT,UNSW_NB15+CICIOT2023,325522,48032,179675,0.31180743008209266,log_duration;tcp;udp;icmp;other,exploratory exporter semantics and CICIoT duration units not fully validated
+CICIOT2023,UNSW_NB15,147841,30065,195648,0.5418660042525352,log_duration;tcp;udp;icmp;other,exploratory exporter semantics and CICIoT duration units not fully validated
+CICIOT2023,TON_IOT,150672,29003,195648,0.51443919692509,log_duration;tcp;udp;icmp;other,exploratory exporter semantics and CICIoT duration units not fully validated
+CICIOT2023,UNSW_NB15+TON_IOT,298513,59068,195648,0.5418660042525352,log_duration;tcp;udp;icmp;other,exploratory exporter semantics and CICIoT duration units not fully validated

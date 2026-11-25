@@ -1,0 +1,9 @@
+dataset,raw_feature,canonical_feature,units,transform,compatibility,limitation,source
+UNSW_NB15,dur,log_duration,seconds reported in source schema,log1p nonnegative duration,approximate,Flow segmentation and clock policy may differ,https://research.unsw.edu.au/projects/unsw-nb15-dataset
+TON_IOT,duration,log_duration,seconds in Zeek connection duration,log1p nonnegative duration,approximate,Connection termination and incomplete flow handling may differ,https://docs.zeek.org/en/current/reference/logs/conn.html
+CICIOT2023,flow_duration,log_duration,units not independently established for this mirror,log1p without inferred unit conversion,unresolved exploratory,Not equivalent to Duration TTL; packet aggregation definition needs validation,https://www.mdpi.com/1424-8220/23/13/5941
+UNSW_NB15 and TON_IOT,proto,tcp udp icmp other,categorical protocol,lowercase tcp udp; icmp substring; remaining other,logical category compatible,Other combines different protocol mixtures,https://research.unsw.edu.au/projects/unsw-nb15-dataset
+CICIOT2023,TCP UDP ICMP,tcp udp icmp other,binary protocol indicators,greater than 0.5; assert exclusivity; other when all zero,logical category compatible,Exact numerical indicator coding and exclusivity checked by runtime assertion,https://www.mdpi.com/1424-8220/23/13/5941
+CICIOT2023,Duration,excluded,TTL,none,incompatible with duration,Never used as seconds,https://www.mdpi.com/1424-8220/23/13/5941
+All three,sbytes dbytes src_bytes dst_bytes,excluded,potentially payload versus IP or transaction bytes,none,not established,No common byte feature used,https://docs.zeek.org/en/current/reference/logs/conn.html
+All three,Spkts Dpkts src_pkts dst_pkts Number,excluded,directional connection versus aggregation counts,none,not established,Number is not mapped to directional packet counts,https://www.mdpi.com/1424-8220/23/13/5941

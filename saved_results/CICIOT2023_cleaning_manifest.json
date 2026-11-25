@@ -1,0 +1,36 @@
+{
+  "dataset": "CICIOT2023",
+  "rows_read": 7845673,
+  "rows_kept": 7845673,
+  "repeated_headers": 0,
+  "invalid_labels": 0,
+  "invalid_numeric_rows": 0,
+  "parts": 198,
+  "binary_distribution": {
+    "0": 184766,
+    "1": 7660907
+  },
+  "numeric_features": 46,
+  "categorical_features": 0,
+  "allowed_missing_unsw_by_feature": {},
+  "files": [
+    {
+      "file": "/kaggle/input/datasets/himadri07/ciciot2023/CICIOT23/test/test.csv",
+      "split": "test",
+      "rows_read": 1176851,
+      "rows_kept": 1176851
+    },
+    {
+      "file": "/kaggle/input/datasets/himadri07/ciciot2023/CICIOT23/train/train.csv",
+      "split": "train",
+      "rows_read": 5491971,
+      "rows_kept": 5491971
+    },
+    {
+      "file": "/kaggle/input/datasets/himadri07/ciciot2023/CICIOT23/validation/validation.csv",
+      "split": "validation",
+      "rows_read": 1176851,
+      "rows_kept": 1176851
+    }
+  ]
+}

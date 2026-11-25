@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "separate_fresh_kernel": true,
+  "independent_team": false,
+  "exact_tables": 8,
+  "prediction_files_by_fit": 510,
+  "all_files_compared": 526,
+  "same_machine_and_dependencies": true,
+  "repeat_output": "nids_research_repeat_g2tf_hth"
+}

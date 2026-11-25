@@ -1,0 +1,5 @@
+dataset,column,n,missing,negative,zero,median_native_units,p95_native_units,protocol_flag_missing_rows,protocol_flag_fractional_rows,no_majority_protocol
+UNSW_NB15,dur,177906,0,0,548,0.015878,1.59258125,,,
+TON_IOT,duration,179675,0,0,29662,0.002215,61.9930764,,,
+CICIOT2023,flow_duration,195648,0,0,106015,0.0,5.866677778244018,0.0,0.0,9763.0
+RT-IoT2022,flow_duration,123117,0,0,15981,4e-06,2.899318799999987,,,

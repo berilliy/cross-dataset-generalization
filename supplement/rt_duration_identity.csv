@@ -1,0 +1,2 @@
+total,eligible,excluded,agree,median_ratio_seconds_over_reported,median_abs_error_seconds,tolerance,status
+123117,107136,15981,107136,1.0000010591471864,5.31158447246306e-08,"max(1e-6 seconds, 1% of reported duration)","retrospective unit-consistency diagnostic, no calibration or tuning"

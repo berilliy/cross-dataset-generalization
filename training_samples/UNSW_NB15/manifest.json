@@ -1,0 +1,46 @@
+{
+  "dataset": "UNSW_NB15",
+  "rows_read": 2540047,
+  "rows_kept": 2540047,
+  "repeated_headers": 0,
+  "invalid_labels": 0,
+  "invalid_numeric_rows": 0,
+  "parts": 66,
+  "binary_distribution": {
+    "0": 2218764,
+    "1": 321283
+  },
+  "numeric_features": 38,
+  "categorical_features": 5,
+  "allowed_missing_unsw_by_feature": {
+    "ct_flw_http_mthd": 1348145,
+    "is_ftp_login": 1429879,
+    "ct_ftp_cmd": 1429879
+  },
+  "files": [
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/unsw-nb15/UNSW-NB15/CSV Files/UNSW-NB15_1.csv",
+      "split": "raw",
+      "rows_read": 700001,
+      "rows_kept": 700001
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/unsw-nb15/UNSW-NB15/CSV Files/UNSW-NB15_2.csv",
+      "split": "raw",
+      "rows_read": 700001,
+      "rows_kept": 700001
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/unsw-nb15/UNSW-NB15/CSV Files/UNSW-NB15_3.csv",
+      "split": "raw",
+      "rows_read": 700001,
+      "rows_kept": 700001
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/unsw-nb15/UNSW-NB15/CSV Files/UNSW-NB15_4.csv",
+      "split": "raw",
+      "rows_read": 440044,
+      "rows_kept": 440044
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    42,
+    7,
+    2026
+  ],
+  "total_training_budget": 60000,
+  "features": [
+    "log_duration",
+    "tcp",
+    "udp",
+    "icmp",
+    "other"
+  ],
+  "target_test": "fixed hash groups 8 and 9",
+  "threshold": "max source calibration benign 99th percentile nextafter",
+  "status": "executed"
+}

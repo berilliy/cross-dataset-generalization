@@ -1,0 +1,8 @@
+# Draft. Replace the empty list with one entry per confirmed author, in citation order.
+# For each person, use family-names and given-names as the author supplies them.
+# Optional affiliation and orcid fields belong to that person's entry.
+cff-version: 1.2.0
+type: software
+title: "Robust Cross-Dataset Generalization of Machine Learning-Based Network Intrusion Detection Under Temporal and Distributional Shift"
+message: "Cite the research title and the specific repository revision used. Formal author metadata is pending."
+authors: []

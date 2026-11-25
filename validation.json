@@ -1,0 +1,17 @@
+{
+  "real_train_run_all": "PASS",
+  "completed_code_cells": 14,
+  "error_outputs": 0,
+  "benchmark_rows": 720,
+  "native_ablation_rows": 120,
+  "external_rows_checked": 180,
+  "calibration_rows_checked": 36,
+  "existing_benchmark_native_checked": 840,
+  "additional_strict_and_exploratory_metric_groups": 44,
+  "frozen_source_threshold_equality_for_external": true,
+  "local_freeze_verified": true,
+  "paired_conditional_tests": 28,
+  "external_records": 123117,
+  "external_testbeds": 1,
+  "independent_team_replication": false
+}

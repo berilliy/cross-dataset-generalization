@@ -1,0 +1,13 @@
+key,policy,attack_label,target,n,errors,error_rate
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,DOS_SYN_Hping,1,94659,10862,0.11474872965064072
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,Thing_Speak,0,8108,3706,0.45707942772570304
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,ARP_poisioning,1,7750,6251,0.8065806451612904
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,MQTT_Publish,0,4146,4132,0.9966232513265798
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,NMAP_UDP_SCAN,1,2590,2451,0.9463320463320464
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,NMAP_XMAS_TREE_SCAN,1,2010,15,0.007462686567164179
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,NMAP_OS_DETECTION,1,2000,0,0.0
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,NMAP_TCP_scan,1,1002,3,0.0029940119760479044
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,DDOS_Slowloris,1,534,133,0.24906367041198502
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,Wipro_bulb,0,253,154,0.6086956521739131
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,Metasploit_Brute_Force_SSH,1,37,8,0.21621621621621623
+UNSW_NB15+TON_IOT__42__minimal_core__LightGBM,default_0.5,NMAP_FIN_SCAN,1,28,27,0.9642857142857143

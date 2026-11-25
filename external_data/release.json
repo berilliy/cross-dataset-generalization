@@ -1,0 +1,12 @@
+{
+  "title": "RT-IoT2022",
+  "authors": "B. S. Sharmila and Rohini Nagapadma",
+  "doi": "10.24432/C5P338",
+  "url": "https://archive.ics.uci.edu/static/public/942/rt-iot2022.zip",
+  "archive_member": "RT_IOT2022",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "sha256": "bcaa24d62abbb1215be576d5cf9c02dfcb0bb7c4c2f5a00e03055afaa1ed109e",
+  "changes": "Official archive unmodified. Derived tables use original CSV row positions (zero-based), protocol flags, log duration and binary labels.",
+  "retrieved_utc": "2026-11-25T12:51:15.939092+00:00"
+}

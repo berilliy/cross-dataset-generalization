@@ -1,0 +1,11 @@
+attack_label,train,calibration,test
+Analysis,40,0,142
+Backdoor,40,0,133
+Benign,72455,2331,80723
+DoS,81,0,1030
+Exploits,386,0,2819
+Fuzzers,371,0,1298
+Generic,489,0,14445
+Reconnaissance,105,0,885
+Shellcode,15,0,102
+Worms,5,0,7

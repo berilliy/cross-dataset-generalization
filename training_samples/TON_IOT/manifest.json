@@ -1,0 +1,109 @@
+{
+  "dataset": "TON_IOT",
+  "rows_read": 12000000,
+  "rows_kept": 11999825,
+  "repeated_headers": 0,
+  "invalid_labels": 0,
+  "invalid_numeric_rows": 175,
+  "parts": 300,
+  "binary_distribution": {
+    "0": 412503,
+    "1": 11587322
+  },
+  "numeric_features": 18,
+  "categorical_features": 23,
+  "allowed_missing_unsw_by_feature": {
+    "src_port": 0,
+    "dst_port": 0,
+    "duration": 0,
+    "src_bytes": 175,
+    "dst_bytes": 0,
+    "missed_bytes": 0,
+    "src_pkts": 0,
+    "src_ip_bytes": 0,
+    "dst_pkts": 0,
+    "dst_ip_bytes": 0,
+    "dns_qclass": 0,
+    "dns_qtype": 0,
+    "dns_rcode": 0,
+    "http_trans_depth": 11977687,
+    "http_version": 11978132,
+    "http_request_body_len": 0,
+    "http_response_body_len": 0,
+    "http_status_code": 0
+  },
+  "files": [
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_1.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 999825
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_10.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_11.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_12.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_13.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_14.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_15.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_16.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_17.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_18.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_19.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    },
+    {
+      "file": "/kaggle/input/datasets/antonshaubert/ton-iot-network/TON_IoT network/Network_dataset_2.csv",
+      "split": "raw",
+      "rows_read": 1000000,
+      "rows_kept": 1000000
+    }
+  ]
+}

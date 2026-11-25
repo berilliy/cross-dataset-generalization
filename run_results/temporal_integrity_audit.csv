@@ -1,0 +1,3 @@
+dataset,sampled,valid_timestamps,valid_time_pct,first_utc,last_utc,distinct_timestamps,distinct_dates,largest_timestamp_fraction,global_attack_pct,unique_feature_groups
+UNSW_NB15,177906,177906,100.0,2015-01-22 11:49:37+00:00,2015-02-18 12:21:08+00:00,71662,3,0.0001,12.587,159103
+TON_IOT,179675,179675,100.0,2019-04-02 09:49:44+00:00,2019-04-27 01:25:17+00:00,67095,8,0.0005,96.562,173735

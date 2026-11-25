@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-25T13:05:13.308103+00:00",
+  "notebook_source": "37f4c73b4d540cf9e185e7285b35e2b09e37d29c79ffcc0b3e48d648a3e1d5c0",
+  "change": "RF prediction only: fixed order of floating-point summation by using n_jobs=1 after fitting. Same source fits, hyperparameters, rows, label mapping, score cutoffs, endpoints and target. Applies to all RF predictions; no change to any other model.",
+  "timing": "Engineering correction after first v3 scores were known; v2 vs initial v3: three controlled and two native calibrated RF rows differed in Macro-F1. Both original freeze records remain in this directory."
+}
